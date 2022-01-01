@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=NTR&display=swap');
+body{
+   padding:1rem 4rem 4rem;
+   background-color: rgb(43, 122, 187);
+    
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 4rem;
+}
+.header img{
+    width:100% ;
+    height: 20rem;
+    border-radius: 30px;
+    border: 5px solid white;
+}
+.header h1{
+    font-family: 'Pushster', cursive;
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    text-shadow: 9px 8px 2px black, 0 0 1em rgb(171, 201, 221), 0 0 0.2em rgb(171, 201, 221);
+}
+.header article{
+    width: 75%;
+    color:rgb(171, 201, 221);
+    font-family: 'NTR', sans-serif;
+    font-style: oblique;
+    font-size: 1.5rem;
+    text-align: center;
+    
+}
+.container{
+   display: flex;
+   justify-content: space-between;
+   width: 70rem;
+   border-top: 2px dotted rgb(171, 201, 221);
+}
+.container h3{
+    font-family: 'NTR', sans-serif;
+    color: rgb(171, 201, 221);
+    text-align: center;
+    font-size: 2rem;
+}
+.container select{
+    width: 14rem;
+    border: none;
+    border-radius: 10px;
+    background-color: white;    
+    color:rgb(39, 109, 167);
+    text-align: center;
+    height: 2rem;
+    font-weight: bolder;
+
+}
+.button{
+    background-color: rgb(192, 41, 41);
+    color: white;
+    border: none;
+    padding: 1rem;
+    border-radius: 50%;
+    cursor: pointer;
+    margin-top: 3rem;
+    font-size: 1rem;
+    border: 2px solid white;
+}
+.button:hover{
+    color:white;
+    background-color: rgb(108, 207, 141);
+    border: 2px solid white;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);;
+}
+.board{
+    width: auto;
+    height: 5rem;
+    font-size: 2rem;
+    background-color: rgb(171, 201, 221);
+    color: white;
+    text-align: center;
+    border: 2px solid white;
+}
+.board p{
+    margin: 1rem;
+}
+.again{
+    margin-top: 2rem;
+}
+.again a{
+    text-decoration: none;
+    font-family: 'NTR', sans-serif;
+    font-size: 1rem;
+}
+.hidden{
+    display: none;
+}
