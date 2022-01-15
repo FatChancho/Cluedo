@@ -38,9 +38,25 @@ body{
     .container{
         display: flex;
         flex-direction: column;
-        /*justify-content: space-evenly;
-        width: 70rem;
-        border-top: 2px dotted rgb(171, 201, 221);*/
+        align-items: center;
+     }
+     .centro h3{
+         margin-bottom: 1rem;
+         margin-top: 0;
+     }
+     .centro{
+        padding-bottom: 0;
+     }
+     .header img{
+         height: 11rem;
+     }
+     .header h1{
+         font-size: 2.5rem;
+     }
+     .header article{
+         width: 100%;
+         font-size: 0.75rem;
+         margin-bottom: 1rem;
      }
 }
 .container{
@@ -108,7 +124,7 @@ body{
 .hidden{
     display: none;
 }
-.center{
+.centro{
     display: flex;
     flex-direction: column;
     align-items: center;
