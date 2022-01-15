@@ -13,7 +13,7 @@ body{
     padding-bottom: 4rem;
 }
 .header img{
-    width:100% ;
+    width:80% ;
     height: 20rem;
     border-radius: 30px;
     border: 5px solid white;
@@ -34,12 +34,23 @@ body{
     text-align: center;
     
 }
-.container{
-   display: flex;
-   justify-content: space-between;
-   width: 70rem;
-   border-top: 2px dotted rgb(171, 201, 221);
+@media(max-width:500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+        /*justify-content: space-evenly;
+        width: 70rem;
+        border-top: 2px dotted rgb(171, 201, 221);*/
+     }
 }
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    width: 70rem;
+    border-top: 2px dotted rgb(171, 201, 221);
+ }
+
+
 .container h3{
     font-family: 'NTR', sans-serif;
     color: rgb(171, 201, 221);
@@ -96,4 +107,9 @@ body{
 }
 .hidden{
     display: none;
+}
+.center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }

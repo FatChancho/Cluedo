@@ -281,7 +281,7 @@ function playAgain() {
 let botton = document.getElementById("guess"); //
 botton.onclick = function () {
   let guess = {
-    //Create an user's selection object
+    //Create a user's selection object
     suspect: document.querySelector("#suspect").value,
     room: document.querySelector("#room").value,
     weapon: document.querySelector("#weapon").value,
