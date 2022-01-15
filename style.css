@@ -40,6 +40,9 @@ body{
         flex-direction: column;
         align-items: center;
      }
+     .container h3{
+        font-size: 1rem;
+     }
      .centro h3{
          margin-bottom: 1rem;
          margin-top: 0;
@@ -103,11 +106,12 @@ body{
 }
 .board{
     width: auto;
-    height: 5rem;
+    height: auto;
     font-size: 2rem;
     background-color: rgb(171, 201, 221);
     color: white;
     text-align: center;
+    font-family: 'Pushster', cursive;
     border: 2px solid white;
 }
 .board p{
